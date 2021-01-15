@@ -96,9 +96,9 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar-brand img,
-  .nike-letters {
-    align-items: center;
+  .highlight-area {
+    text-align: left;
+    margin-bottom: 50px;
   }
   .icon-card {
     text-align: center;
