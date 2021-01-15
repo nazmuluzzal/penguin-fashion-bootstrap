@@ -1,0 +1,111 @@
+/**
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
+**/
+
+header {
+  background-color: #fffbf0;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+h2 {
+  font-family: "Bebas Neue", cursive;
+}
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: #3e3e3e;
+}
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #3c3c3c;
+}
+.color-highlight {
+  color: #fa804c;
+}
+.shop-btn {
+  background-color: #3948d7;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.shoe-card {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.casual-img {
+  width: 90%;
+  background-color: #ececec;
+  margin-left: 18px;
+  margin-top: 18px;
+  border-radius: 20px;
+}
+.shoe-footer {
+  background-color: white;
+  border: none;
+}
+.icon-card {
+  border-radius: 20px;
+}
+
+.testimonial {
+  border-color: white;
+}
+.testimonial .col-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+.testimonial .fas {
+  font-size: 30px;
+  color: #fa804c;
+}
+.testimonial img {
+  width: 100px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.testimonial p {
+  padding: 10px 10px;
+}
+.testimonial h5 {
+  margin-top: 10px;
+}
+.subscribe {
+  background-color: #fffbf0;
+  height: 350px;
+  border-radius: 10px;
+}
+.submit-btn {
+  background-color: #fa804c;
+  color: white;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand img,
+  .nike-letters {
+    align-items: center;
+  }
+  .icon-card {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .testimonial .col-3 {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+}
